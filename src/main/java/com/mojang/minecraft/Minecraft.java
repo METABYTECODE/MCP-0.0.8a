@@ -158,6 +158,10 @@ public class Minecraft implements Runnable {
       // Setup input callbacks
       this.setupInputCallbacks();
       
+      // Disable VSync for maximum FPS (set to 0)
+      // Set to 1 for VSync (60 FPS), 0 for unlimited FPS
+      GLFW.glfwSwapInterval(0);
+      
       // Auto-grab mouse for FPS controls
       this.grabMouse();
       
@@ -279,7 +283,9 @@ public class Minecraft implements Runnable {
       }
 
       long lastTime = System.currentTimeMillis();
+      long lastFrameTime = System.nanoTime();
       int frames = 0;
+      final long NANOS_PER_FRAME = 1000000000L / 120L; // 120 FPS limit (set to 60 for 60 FPS)
 
       try {
          while(this.running && !GLFW.glfwWindowShouldClose(this.window)) {
@@ -302,6 +308,18 @@ public class Minecraft implements Runnable {
                // Swap buffers
                GLFW.glfwSwapBuffers(this.window);
                ++frames;
+               
+               // FPS limiting
+               long currentTime = System.nanoTime();
+               long deltaTime = currentTime - lastFrameTime;
+               if (deltaTime < NANOS_PER_FRAME) {
+                  try {
+                     Thread.sleep((NANOS_PER_FRAME - deltaTime) / 1000000L);
+                  } catch (InterruptedException e) {
+                     // Ignore
+                  }
+               }
+               lastFrameTime = System.nanoTime();
 
                while(System.currentTimeMillis() >= lastTime + 1000L) {
                   this.fpsString = frames + " fps, " + Chunk.updates + " chunk updates";
