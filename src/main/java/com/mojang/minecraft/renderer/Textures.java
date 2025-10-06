@@ -8,7 +8,7 @@ import java.util.HashMap;
 import javax.imageio.ImageIO;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
-import org.lwjgl.util.glu.GLU;
+// GLU removed in LWJGL 3 - using manual mipmap generation
 
 public class Textures {
    private HashMap idMap = new HashMap();
@@ -43,7 +43,7 @@ public class Textures {
             }
 
             pixels.asIntBuffer().put(rawPixels);
-            GLU.gluBuild2DMipmaps(3553, 6408, w, h, 6408, 5121, pixels);
+            GL11.glTexImage2D(GL11.GL_TEXTURE_2D, 0, GL11.GL_RGBA, w, h, 0, GL11.GL_RGBA, GL11.GL_UNSIGNED_BYTE, pixels);
             return id;
          }
       } catch (IOException var15) {

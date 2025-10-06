@@ -5,14 +5,33 @@ plugins {
 group = 'org.example'
 version = '1.0-SNAPSHOT'
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.lwjgl.lwjgl:lwjgl:2.9.3'
-    implementation 'org.lwjgl.lwjgl:lwjgl_util:2.9.3'
-    implementation 'org.lwjgl.lwjgl:lwjgl-platform:2.9.3:natives-windows'
+    // LWJGL 3.3
+    implementation platform('org.lwjgl:lwjgl-bom:3.3.3')
+    implementation 'org.lwjgl:lwjgl'
+    implementation 'org.lwjgl:lwjgl-glfw'
+    implementation 'org.lwjgl:lwjgl-opengl'
+    implementation 'org.lwjgl:lwjgl-stb'
+    
+    // JOML - Java OpenGL Math Library (замена GLU)
+    implementation 'org.joml:joml:1.10.5'
+    
+    // Нативные библиотеки для Windows
+    runtimeOnly 'org.lwjgl:lwjgl:3.3.3:natives-windows'
+    runtimeOnly 'org.lwjgl:lwjgl-glfw:3.3.3:natives-windows'
+    runtimeOnly 'org.lwjgl:lwjgl-opengl:3.3.3:natives-windows'
+    runtimeOnly 'org.lwjgl:lwjgl-stb:3.3.3:natives-windows'
+    
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
@@ -26,18 +45,4 @@ task runClient(type: JavaExec) {
     description = 'Запуск клиента Minecraft'
     mainClass = 'com.mojang.minecraft.Minecraft'
     classpath = sourceSets.main.runtimeClasspath
-    
-    // Настройка для извлечения нативных библиотек LWJGL
-    doFirst {
-        def natives = configurations.compileClasspath.filter { it.name.contains('natives') }
-        natives.each { nativeLib ->
-            copy {
-                from zipTree(nativeLib)
-                into "${buildDir}/natives"
-            }
-        }
-    }
-    
-    // Добавляем путь к нативным библиотекам
-    systemProperty 'java.library.path', "${buildDir}/natives"
 }

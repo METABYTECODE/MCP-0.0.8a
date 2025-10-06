@@ -1,7 +1,7 @@
 package com.mojang.minecraft;
 
 import com.mojang.minecraft.level.Level;
-import org.lwjgl.input.Keyboard;
+// Using InputManager instead of direct Keyboard access
 
 public class Player extends Entity {
    public Player(Level level) {
@@ -15,27 +15,27 @@ public class Player extends Entity {
       this.zo = this.z;
       float xa = 0.0F;
       float ya = 0.0F;
-      if (Keyboard.isKeyDown(19)) {
+      if (InputManager.isKeyDown(InputManager.KEY_R)) {
          this.resetPos();
       }
 
-      if (Keyboard.isKeyDown(200) || Keyboard.isKeyDown(17)) {
+      if (InputManager.isKeyDown(InputManager.KEY_W)) {
          --ya;
       }
 
-      if (Keyboard.isKeyDown(208) || Keyboard.isKeyDown(31)) {
+      if (InputManager.isKeyDown(InputManager.KEY_S)) {
          ++ya;
       }
 
-      if (Keyboard.isKeyDown(203) || Keyboard.isKeyDown(30)) {
+      if (InputManager.isKeyDown(InputManager.KEY_A)) {
          --xa;
       }
 
-      if (Keyboard.isKeyDown(205) || Keyboard.isKeyDown(32)) {
+      if (InputManager.isKeyDown(InputManager.KEY_D)) {
          ++xa;
       }
 
-      if ((Keyboard.isKeyDown(57) || Keyboard.isKeyDown(219)) && this.onGround) {
+      if ((InputManager.isKeyDown(InputManager.KEY_SPACE) || InputManager.isKeyDown(InputManager.KEY_LEFT_SHIFT)) && this.onGround) {
          this.yd = 0.5F;
       }
 
