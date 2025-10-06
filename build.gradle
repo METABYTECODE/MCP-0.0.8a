@@ -42,7 +42,7 @@ test {
 
 task runClient(type: JavaExec) {
     group = 'application'
-    description = 'Запуск клиента Minecraft'
+    description = 'Запуск клиента Minecraft (как в новых версиях)'
     mainClass = 'com.mojang.minecraft.Minecraft'
     classpath = sourceSets.main.runtimeClasspath
 }
