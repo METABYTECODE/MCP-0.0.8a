@@ -5,7 +5,6 @@ import com.rivet.engine.ModuleManager;
 import com.rivet.engine.modules.InitializationModule;
 import com.rivet.engine.modules.LoggingModule;
 import com.rivet.engine.modules.ResourceModule;
-import com.rivet.engine.renderer.FontRenderer;
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,7 +29,6 @@ public class Rivet implements Runnable {
     private InitializationModule initModule;
     private LoggingModule loggingModule;
     private ResourceModule resourceModule;
-    private FontRenderer fontRenderer;
     
     // Основные параметры
     private boolean fullscreen = false;
@@ -40,6 +38,7 @@ public class Rivet implements Runnable {
     // Игровое состояние
     public volatile boolean pause = false;
     private volatile boolean running = false;
+    private int frames = 0;
 
     public Rivet(int width, int height, boolean fullscreen) {
         this.width = width;
@@ -70,9 +69,6 @@ public class Rivet implements Runnable {
             // Отключить VSync для максимального FPS
             GLFW.glfwSwapInterval(0);
             
-            // Инициализация FontRenderer
-            fontRenderer = new FontRenderer(resourceModule.getResourceManager());
-            fontRenderer.initialize();
             
             logger.info("Rivet: Инициализация завершена успешно");
         } catch (Exception e) {
@@ -82,10 +78,6 @@ public class Rivet implements Runnable {
     }
 
     public void destroy() {
-        // Очистка FontRenderer
-        if (fontRenderer != null) {
-            fontRenderer.cleanup();
-        }
         
         // Очистка всех модулей
         if (moduleManager != null) {
@@ -105,7 +97,6 @@ public class Rivet implements Runnable {
 
         long lastTime = System.currentTimeMillis();
         long lastFrameTime = System.nanoTime();
-        int frames = 0;
         final long NANOS_PER_FRAME = 1000000000L / 120L; // 120 FPS limit
 
         try {
@@ -121,7 +112,7 @@ public class Rivet implements Runnable {
 
                     // Swap buffers
                     GLFW.glfwSwapBuffers(initModule.getWindow());
-                    ++frames;
+                    ++this.frames;
 
                     // FPS limiting
                     long currentTime = System.nanoTime();
@@ -137,9 +128,9 @@ public class Rivet implements Runnable {
 
                     // Обновление FPS строки каждую секунду
                     while(System.currentTimeMillis() >= lastTime + 1000L) {
-                        logger.debug("FPS: {}", frames);
+                        logger.debug("FPS: {}", this.frames);
                         lastTime += 1000L;
-                        frames = 0;
+                        this.frames = 0;
                     }
                 }
             }
@@ -154,16 +145,14 @@ public class Rivet implements Runnable {
         this.running = false;
     }
     
-    /**
-     * Рендеринг неба
-     */
-    private void renderSky() {
-        // Очистка экрана небесно-голубым цветом
-        org.lwjgl.opengl.GL11.glClear(org.lwjgl.opengl.GL11.GL_COLOR_BUFFER_BIT | org.lwjgl.opengl.GL11.GL_DEPTH_BUFFER_BIT);
-        
-        // Здесь будет логика рендеринга неба
-        // Пока что просто очищаем экран небесно-голубым цветом
-    }
+           /**
+            * Рендеринг неба и UI
+            */
+           private void renderSky() {
+               // Очистка экрана небесно-голубым цветом
+               org.lwjgl.opengl.GL11.glClear(org.lwjgl.opengl.GL11.GL_COLOR_BUFFER_BIT | org.lwjgl.opengl.GL11.GL_DEPTH_BUFFER_BIT);
+               
+           }
 
     public static void main(String[] args) {
         Rivet rivet = new Rivet(854, 480, false);

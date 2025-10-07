@@ -116,7 +116,22 @@ public class InitializationModule implements GameModule {
         // Устанавливаем цвет очистки (небесно-голубой)
         GL11.glClearColor(0.5f, 0.8f, 1.0f, 1.0f);
         
+        // Проверяем профиль OpenGL
+        String version = GL11.glGetString(GL11.GL_VERSION);
+        String vendor = GL11.glGetString(GL11.GL_VENDOR);
+        String renderer = GL11.glGetString(GL11.GL_RENDERER);
+        
         logger.info("OpenGL 3.2+ Core Profile настроен");
+        logger.info("OpenGL Version: {}", version);
+        logger.info("OpenGL Vendor: {}", vendor);
+        logger.info("OpenGL Renderer: {}", renderer);
+        
+        // Проверяем, что мы действительно используем Core Profile
+        if (version != null && version.contains("Core")) {
+            logger.info("✓ OpenGL Core Profile активен");
+        } else {
+            logger.warn("⚠ Возможно, используется Compatibility Profile вместо Core Profile");
+        }
     }
     
     private void loadShaders() throws ShaderException {

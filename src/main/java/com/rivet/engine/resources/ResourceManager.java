@@ -57,8 +57,8 @@ public class ResourceManager {
                 textures.fields().forEachRemaining(entry -> {
                     String key = entry.getKey();
                     String path = entry.getValue().asText();
-                    // Путь уже содержит "textures/", создаем ResourceLocation напрямую
-                    resourceMap.put(key, new ResourceLocation(path));
+                    // Путь уже содержит "textures/", создаем ResourceLocation с пустым namespace
+                    resourceMap.put(key, new ResourceLocation("", path));
                 });
             }
             
@@ -68,8 +68,8 @@ public class ResourceManager {
                 fonts.fields().forEachRemaining(entry -> {
                     String key = entry.getKey();
                     String path = entry.getValue().asText();
-                    // Путь уже содержит "fonts/", создаем ResourceLocation напрямую
-                    resourceMap.put(key, new ResourceLocation(path));
+                    // Путь уже содержит "fonts/", создаем ResourceLocation с пустым namespace
+                    resourceMap.put(key, new ResourceLocation("", path));
                 });
             }
             
@@ -79,8 +79,8 @@ public class ResourceManager {
                 sounds.fields().forEachRemaining(entry -> {
                     String key = entry.getKey();
                     String path = entry.getValue().asText();
-                    // Путь уже содержит "sounds/", создаем ResourceLocation напрямую
-                    resourceMap.put(key, new ResourceLocation(path));
+                    // Путь уже содержит "sounds/", создаем ResourceLocation с пустым namespace
+                    resourceMap.put(key, new ResourceLocation("", path));
                 });
             }
         }

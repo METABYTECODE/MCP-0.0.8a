@@ -69,3 +69,4 @@ public class ResourceModule implements GameModule {
         return resourceManager;
     }
 }
+

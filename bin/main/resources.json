@@ -3,7 +3,17 @@
     "MISSING_TEXTURE": "textures/missing.png",
     "STONE": "textures/blocks/stone.png",
     "GRASS": "textures/blocks/grass.png",
-    "DIRT": "textures/blocks/dirt.png"
+    "DIRT": "textures/blocks/dirt.png",
+    "FONT_ATLAS_0": "textures/fonts/atlas_0.png",
+    "FONT_ATLAS_1": "textures/fonts/atlas_1.png",
+    "FONT_ATLAS_2": "textures/fonts/atlas_2.png",
+    "FONT_ATLAS_3": "textures/fonts/atlas_3.png",
+    "FONT_ATLAS_4": "textures/fonts/atlas_4.png",
+    "FONT_ATLAS_5": "textures/fonts/atlas_5.png",
+    "FONT_ATLAS_6": "textures/fonts/atlas_6.png",
+    "FONT_ATLAS_7": "textures/fonts/atlas_7.png",
+    "FONT_ATLAS_8": "textures/fonts/atlas_8.png",
+    "FONT_ATLAS_9": "textures/fonts/atlas_9.png"
   },
   "fonts": {
     "DEFAULT": "fonts/cyrillic-mojang-font-beta.ttf",

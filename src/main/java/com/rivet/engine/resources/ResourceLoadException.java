@@ -21,3 +21,4 @@ public class ResourceLoadException extends Exception {
         super("Failed to load resource " + location + ": " + message, cause);
     }
 }
+

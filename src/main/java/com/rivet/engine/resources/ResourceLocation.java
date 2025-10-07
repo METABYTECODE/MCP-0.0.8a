@@ -32,6 +32,9 @@ public class ResourceLocation {
      * @return полный путь (например, "textures/blocks/stone.png")
      */
     public String getFullPath() {
+        if (namespace.isEmpty()) {
+            return path;
+        }
         return namespace + "/" + path;
     }
     
