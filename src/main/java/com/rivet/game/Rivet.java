@@ -4,6 +4,8 @@ import com.rivet.engine.Engine;
 import com.rivet.engine.ModuleManager;
 import com.rivet.engine.modules.InitializationModule;
 import com.rivet.engine.modules.LoggingModule;
+import com.rivet.engine.modules.ResourceModule;
+import com.rivet.engine.renderer.FontRenderer;
 import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +29,8 @@ public class Rivet implements Runnable {
     private ModuleManager moduleManager;
     private InitializationModule initModule;
     private LoggingModule loggingModule;
+    private ResourceModule resourceModule;
+    private FontRenderer fontRenderer;
     
     // Основные параметры
     private boolean fullscreen = false;
@@ -46,11 +50,13 @@ public class Rivet implements Runnable {
         this.engine = new Engine();
         this.moduleManager = new ModuleManager();
         this.loggingModule = new LoggingModule();
+        this.resourceModule = new ResourceModule();
         this.initModule = new InitializationModule(width, height, fullscreen);
         
-        // Добавление модулей в менеджер (сначала логирование)
-        moduleManager.addModule(loggingModule);
-        moduleManager.addModule(initModule);
+        // Добавление модулей в менеджер (порядок важен!)
+        moduleManager.addModule(loggingModule);    // Сначала логирование
+        moduleManager.addModule(resourceModule);   // Потом ресурсы
+        moduleManager.addModule(initModule);       // Потом OpenGL
     }
 
     public void init() throws IOException {
@@ -64,6 +70,10 @@ public class Rivet implements Runnable {
             // Отключить VSync для максимального FPS
             GLFW.glfwSwapInterval(0);
             
+            // Инициализация FontRenderer
+            fontRenderer = new FontRenderer(resourceModule.getResourceManager());
+            fontRenderer.initialize();
+            
             logger.info("Rivet: Инициализация завершена успешно");
         } catch (Exception e) {
             logger.error("Rivet: Ошибка инициализации: " + e.getMessage(), e);
@@ -72,6 +82,11 @@ public class Rivet implements Runnable {
     }
 
     public void destroy() {
+        // Очистка FontRenderer
+        if (fontRenderer != null) {
+            fontRenderer.cleanup();
+        }
+        
         // Очистка всех модулей
         if (moduleManager != null) {
             moduleManager.cleanupAll();

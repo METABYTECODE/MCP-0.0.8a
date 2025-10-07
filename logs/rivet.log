@@ -25,3 +25,428 @@
 2025-10-07 18:47:14.381 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
 2025-10-07 18:47:14.381 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
 2025-10-07 18:47:14.381 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
+2025-10-07 18:57:25.566 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-07 18:57:25.568 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-07 18:57:25.568 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-07 18:57:25.568 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-07 18:57:25.569 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-07 18:57:25.569 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-07 18:57:25.569 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-07 18:57:25.569 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-07 18:57:25.680 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-07 18:57:25.694 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Конфигурация ресурсов загружена: 10 записей
+2025-10-07 18:57:25.694 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов инициализирован
+2025-10-07 18:57:25.694 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule инициализирован
+2025-10-07 18:57:26.190 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 1726252044976
+2025-10-07 18:57:26.190 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 1726252044976
+2025-10-07 18:57:26.195 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-07 18:57:26.202 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-07 18:57:26.202 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-07 18:57:26.203 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-07 18:57:26.203 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-07 18:57:26.203 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-07 18:57:26.203 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-07 18:57:26.203 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-07 18:57:26.213 [Thread-0] INFO  c.rivet.engine.renderer.FontRenderer - Инициализация FontRenderer
+2025-10-07 18:57:26.214 [Thread-0] WARN  c.rivet.engine.renderer.FontRenderer - Не удалось загрузить шрифт по умолчанию, создаем заглушку
+2025-10-07 18:57:26.224 [Thread-0] INFO  c.rivet.engine.renderer.FontRenderer - FontRenderer инициализирован
+2025-10-07 18:57:26.224 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-07 18:57:27.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 109
+2025-10-07 18:57:28.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-07 18:57:29.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-07 18:57:30.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 18:57:31.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 120
+2025-10-07 18:57:32.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 18:57:33.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 18:57:34.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 18:57:35.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 18:57:36.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 83
+2025-10-07 18:57:37.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:38.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:57:39.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:40.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:41.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:42.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:43.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:44.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:45.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:46.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:57:47.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:57:48.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:49.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:50.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:51.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:52.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:53.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:57:54.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:55.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:56.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:57.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:57:58.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:57:59.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:00.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:01.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:02.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:03.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:04.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:05.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:06.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:07.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:08.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:09.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:10.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:11.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:12.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:13.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:14.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:15.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:16.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:17.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:18.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:19.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:20.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:21.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:22.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:23.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:24.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:25.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:26.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:27.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:28.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:29.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:30.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:31.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:32.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:33.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:34.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:35.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:36.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:37.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:38.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:39.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:40.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:41.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:42.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:43.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:44.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:45.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:58:46.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:47.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:48.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:49.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:58:50.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:51.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:58:52.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:53.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:54.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:55.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:58:56.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:57.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:58.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:58:59.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:00.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:01.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:02.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:03.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:04.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:05.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:59:06.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:59:07.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:08.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:09.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:10.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:11.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:12.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:13.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:14.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:15.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:16.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 18:59:17.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:18.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:19.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:20.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:21.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:22.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:23.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:24.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:25.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:26.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:27.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:28.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:29.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:30.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:31.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:32.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:33.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:34.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:35.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:36.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:37.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:38.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:39.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:40.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:41.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:42.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:43.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:44.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:45.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:46.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:47.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:48.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:49.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:50.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:51.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:52.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:53.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:54.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:55.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:56.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:57.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 18:59:58.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 18:59:59.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:00:00.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:01.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:02.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:03.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:04.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:05.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:06.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:07.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:08.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:09.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:10.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:11.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:12.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:13.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:14.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:15.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:00:16.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:17.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:18.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:19.240 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:20.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:21.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:22.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:23.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:24.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:25.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:00:26.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:27.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:28.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:29.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:30.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:31.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:32.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:33.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:34.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:35.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:36.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:37.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:38.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:39.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:40.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:41.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:00:42.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:43.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:44.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:45.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:46.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:47.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:48.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:49.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:50.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:51.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:52.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:53.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:54.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:00:55.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:56.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:57.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:58.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:00:59.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:00.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:01:01.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:02.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:03.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:04.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:05.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:06.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:07.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:08.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:09.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 62
+2025-10-07 19:01:10.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:11.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:12.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:13.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:14.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:15.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:16.231 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:17.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:18.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:19.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:20.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:21.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:22.228 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:23.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:24.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:25.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:26.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:27.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:28.229 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:29.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:01:30.235 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:31.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:32.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:33.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:34.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:35.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:36.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:37.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:38.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:39.225 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:40.227 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:41.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:42.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:43.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:44.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:45.236 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:46.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:47.237 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:48.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:49.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:50.230 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:51.232 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:52.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:53.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:54.224 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:55.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:56.238 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:57.234 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:01:58.239 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:01:59.233 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:02:00.226 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:02:00.918 [Thread-0] INFO  c.rivet.engine.renderer.FontRenderer - FontRenderer очищен
+2025-10-07 19:02:00.919 [Thread-0] INFO  com.rivet.engine.ModuleManager - Очистка модулей движка...
+2025-10-07 19:02:00.956 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule очищен
+2025-10-07 19:02:00.956 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Очистка ResourceManager
+2025-10-07 19:02:00.956 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов очищен
+2025-10-07 19:02:00.956 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule очищен
+2025-10-07 19:02:00.956 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
+2025-10-07 19:02:00.956 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
+2025-10-07 19:02:00.956 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
+2025-10-07 19:02:49.089 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-07 19:02:49.091 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-07 19:02:49.091 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-07 19:02:49.091 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-07 19:02:49.092 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-07 19:02:49.092 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-07 19:02:49.092 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-07 19:02:49.092 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-07 19:02:49.200 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-07 19:02:49.215 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Конфигурация ресурсов загружена: 10 записей
+2025-10-07 19:02:49.215 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов инициализирован
+2025-10-07 19:02:49.215 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule инициализирован
+2025-10-07 19:02:49.714 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 2930457390928
+2025-10-07 19:02:49.714 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 2930457390928
+2025-10-07 19:02:49.719 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-07 19:02:49.726 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-07 19:02:49.726 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-07 19:02:49.726 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-07 19:02:49.727 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-07 19:02:49.727 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-07 19:02:49.727 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-07 19:02:49.727 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-07 19:02:49.736 [Thread-0] INFO  c.rivet.engine.renderer.FontRenderer - Инициализация FontRenderer
+2025-10-07 19:02:49.738 [Thread-0] WARN  c.rivet.engine.renderer.FontRenderer - Не удалось загрузить шрифт по умолчанию, создаем заглушку
+2025-10-07 19:02:49.741 [Thread-0] INFO  c.rivet.engine.renderer.FontRenderer - FontRenderer инициализирован
+2025-10-07 19:02:49.741 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-07 19:02:50.746 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 112
+2025-10-07 19:02:51.744 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-07 19:02:52.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-07 19:02:53.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 119
+2025-10-07 19:02:54.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 119
+2025-10-07 19:02:55.744 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 121
+2025-10-07 19:02:56.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-07 19:02:57.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:02:58.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:02:59.741 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:00.749 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:01.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:02.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:03.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:04.749 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:05.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:06.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:07.756 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:08.755 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:09.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:10.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:11.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:12.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:13.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:14.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:15.741 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:16.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:17.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:18.748 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:19.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:20.753 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:21.755 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:22.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:23.748 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:24.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:25.756 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:03:26.754 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:27.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:28.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:29.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:30.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:31.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:32.756 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:33.746 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:34.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:35.754 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:36.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:37.748 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:38.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:39.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:40.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:41.749 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:42.755 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:43.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:44.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:45.754 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:46.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:47.746 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:48.741 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:49.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:50.755 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:51.755 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:52.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:53.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:54.746 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:55.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:56.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:57.741 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:03:58.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:03:59.748 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:00.742 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:01.754 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:04:02.748 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:03.753 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:04.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:05.747 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:06.746 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:07.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:08.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:09.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:10.750 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:11.749 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:12.752 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:13.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:14.756 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:04:15.744 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 63
+2025-10-07 19:04:16.745 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:17.743 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64
+2025-10-07 19:04:18.751 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 65
+2025-10-07 19:04:19.749 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 64

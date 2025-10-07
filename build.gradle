@@ -31,6 +31,9 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.4.11'
     implementation 'ch.qos.logback:logback-core:1.4.11'
     
+    // Jackson для работы с JSON
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    
     // Нативные библиотеки для Windows
     runtimeOnly 'org.lwjgl:lwjgl:3.3.3:natives-windows'
     runtimeOnly 'org.lwjgl:lwjgl-glfw:3.3.3:natives-windows'

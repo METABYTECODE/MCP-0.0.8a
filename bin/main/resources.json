@@ -1,0 +1,18 @@
+{
+  "textures": {
+    "MISSING_TEXTURE": "textures/missing.png",
+    "STONE": "textures/blocks/stone.png",
+    "GRASS": "textures/blocks/grass.png",
+    "DIRT": "textures/blocks/dirt.png"
+  },
+  "fonts": {
+    "DEFAULT": "fonts/cyrillic-mojang-font-beta.ttf",
+    "MONOSPACE": "fonts/jetbrains-mono.ttf",
+    "BOLD": "fonts/roboto-bold.ttf"
+  },
+  "sounds": {
+    "AMBIENT_WIND": "sounds/ambient/wind.ogg",
+    "UI_CLICK": "sounds/ui/click.wav",
+    "UI_HOVER": "sounds/ui/hover.wav"
+  }
+}
