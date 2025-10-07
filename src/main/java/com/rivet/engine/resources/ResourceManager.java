@@ -62,16 +62,6 @@ public class ResourceManager {
                 });
             }
             
-            // Загружаем шрифты
-            if (root.has("fonts")) {
-                JsonNode fonts = root.get("fonts");
-                fonts.fields().forEachRemaining(entry -> {
-                    String key = entry.getKey();
-                    String path = entry.getValue().asText();
-                    // Путь уже содержит "fonts/", создаем ResourceLocation с пустым namespace
-                    resourceMap.put(key, new ResourceLocation("", path));
-                });
-            }
             
             // Загружаем звуки
             if (root.has("sounds")) {
@@ -90,9 +80,6 @@ public class ResourceManager {
      * Создать базовую конфигурацию ресурсов
      */
     private void createDefaultResourceConfig() {
-        // Базовые шрифты
-        resourceMap.put("DEFAULT_FONT", new ResourceLocation("fonts", "roboto.ttf"));
-        resourceMap.put("MONOSPACE_FONT", new ResourceLocation("fonts", "jetbrains-mono.ttf"));
         
         // Базовые текстуры
         resourceMap.put("MISSING_TEXTURE", new ResourceLocation("textures", "missing.png"));
@@ -160,8 +147,6 @@ public class ResourceManager {
         
         if (path.startsWith("textures/")) {
             return new TextureResource(location);
-        } else if (path.startsWith("fonts/")) {
-            return new FontResource(location);
         } else if (path.startsWith("sounds/")) {
             return new SoundResource(location);
         } else {

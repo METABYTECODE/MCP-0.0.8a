@@ -11,7 +11,7 @@ public class ResourceLocation {
     
     /**
      * Создать ResourceLocation
-     * @param namespace пространство имен (например, "textures", "fonts", "sounds")
+     * @param namespace пространство имен (например, "textures", "sounds")
      * @param path путь к ресурсу (например, "blocks/stone.png")
      */
     public ResourceLocation(String namespace, String path) {

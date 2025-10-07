@@ -11662,3 +11662,199 @@ java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.Js
 2025-10-08 00:17:39.165 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
 2025-10-08 00:17:39.165 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
 2025-10-08 00:17:39.166 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
+2025-10-08 00:22:21.109 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-08 00:22:21.111 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-08 00:22:21.111 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-08 00:22:21.111 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-08 00:22:21.112 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-08 00:22:21.112 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-08 00:22:21.112 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-08 00:22:21.112 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-08 00:22:21.222 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-08 00:22:21.236 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Конфигурация ресурсов загружена: 20 записей
+2025-10-08 00:22:21.236 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов инициализирован
+2025-10-08 00:22:21.236 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule инициализирован
+2025-10-08 00:22:21.747 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 2263014540384
+2025-10-08 00:22:21.747 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 2263014540384
+2025-10-08 00:22:21.753 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-08 00:22:21.753 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 00:22:21.753 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 00:22:21.753 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 00:22:21.753 [Thread-0] WARN  c.r.e.modules.InitializationModule - ⚠ Возможно, используется Compatibility Profile вместо Core Profile
+2025-10-08 00:22:21.760 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-08 00:22:21.760 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-08 00:22:21.760 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 00:22:21.760 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 00:22:21.761 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 00:22:21.761 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-08 00:22:21.761 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-08 00:22:21.770 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-08 00:22:22.772 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-08 00:22:23.770 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-08 00:22:24.771 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-08 00:22:25.774 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-08 00:22:26.774 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 116
+2025-10-08 00:22:26.926 [Thread-0] INFO  com.rivet.engine.ModuleManager - Очистка модулей движка...
+2025-10-08 00:22:26.965 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule очищен
+2025-10-08 00:22:26.965 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Очистка ResourceManager
+2025-10-08 00:22:26.965 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов очищен
+2025-10-08 00:22:26.965 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule очищен
+2025-10-08 00:22:26.965 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
+2025-10-08 00:22:26.965 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
+2025-10-08 00:22:26.965 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
+2025-10-08 00:25:53.701 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-08 00:25:53.702 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-08 00:25:53.703 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-08 00:25:53.703 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-08 00:25:53.703 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-08 00:25:53.703 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-08 00:25:53.703 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-08 00:25:53.704 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-08 00:25:53.812 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-08 00:25:53.826 [Thread-0] ERROR com.rivet.engine.ModuleManager - ✗ Ошибка инициализации ResourceModule: Failed to initialize ResourceManager
+com.rivet.engine.resources.ResourceLoadException: Failed to initialize ResourceManager
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:37)
+	at com.rivet.engine.modules.ResourceModule.initialize(ResourceModule.java:25)
+	at com.rivet.engine.ModuleManager.initializeAll(ModuleManager.java:46)
+	at com.rivet.game.Rivet.init(Rivet.java:64)
+	at com.rivet.game.Rivet.run(Rivet.java:92)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (BufferedInputStream); line: 7, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1081)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:539)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3199)
+	at com.rivet.engine.resources.ResourceManager.loadResourceConfig(ResourceManager.java:52)
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:34)
+	... 5 common frames omitted
+2025-10-08 00:25:53.827 [Thread-0] ERROR com.rivet.game.Rivet - Rivet: Ошибка инициализации: Failed to initialize ResourceManager
+com.rivet.engine.resources.ResourceLoadException: Failed to initialize ResourceManager
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:37)
+	at com.rivet.engine.modules.ResourceModule.initialize(ResourceModule.java:25)
+	at com.rivet.engine.ModuleManager.initializeAll(ModuleManager.java:46)
+	at com.rivet.game.Rivet.init(Rivet.java:64)
+	at com.rivet.game.Rivet.run(Rivet.java:92)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (BufferedInputStream); line: 7, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1081)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:539)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3199)
+	at com.rivet.engine.resources.ResourceManager.loadResourceConfig(ResourceManager.java:52)
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:34)
+	... 5 common frames omitted
+2025-10-08 00:26:26.472 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-08 00:26:26.473 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-08 00:26:26.473 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-08 00:26:26.474 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-08 00:26:26.474 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-08 00:26:26.474 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-08 00:26:26.475 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-08 00:26:26.475 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-08 00:26:26.584 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-08 00:26:26.599 [Thread-0] ERROR com.rivet.engine.ModuleManager - ✗ Ошибка инициализации ResourceModule: Failed to initialize ResourceManager
+com.rivet.engine.resources.ResourceLoadException: Failed to initialize ResourceManager
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:37)
+	at com.rivet.engine.modules.ResourceModule.initialize(ResourceModule.java:25)
+	at com.rivet.engine.ModuleManager.initializeAll(ModuleManager.java:46)
+	at com.rivet.game.Rivet.init(Rivet.java:64)
+	at com.rivet.game.Rivet.run(Rivet.java:92)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (BufferedInputStream); line: 7, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1081)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:539)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3199)
+	at com.rivet.engine.resources.ResourceManager.loadResourceConfig(ResourceManager.java:52)
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:34)
+	... 5 common frames omitted
+2025-10-08 00:26:26.601 [Thread-0] ERROR com.rivet.game.Rivet - Rivet: Ошибка инициализации: Failed to initialize ResourceManager
+com.rivet.engine.resources.ResourceLoadException: Failed to initialize ResourceManager
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:37)
+	at com.rivet.engine.modules.ResourceModule.initialize(ResourceModule.java:25)
+	at com.rivet.engine.ModuleManager.initializeAll(ModuleManager.java:46)
+	at com.rivet.game.Rivet.init(Rivet.java:64)
+	at com.rivet.game.Rivet.run(Rivet.java:92)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (BufferedInputStream); line: 7, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1081)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:539)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4867)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3199)
+	at com.rivet.engine.resources.ResourceManager.loadResourceConfig(ResourceManager.java:52)
+	at com.rivet.engine.resources.ResourceManager.initialize(ResourceManager.java:34)
+	... 5 common frames omitted
+2025-10-08 00:26:37.838 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-08 00:26:37.839 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-08 00:26:37.839 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-08 00:26:37.840 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-08 00:26:37.840 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-08 00:26:37.840 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-08 00:26:37.840 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-08 00:26:37.840 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-08 00:26:37.951 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-08 00:26:37.966 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Конфигурация ресурсов загружена: 7 записей
+2025-10-08 00:26:37.966 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов инициализирован
+2025-10-08 00:26:37.966 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule инициализирован
+2025-10-08 00:26:38.459 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 2775080736464
+2025-10-08 00:26:38.459 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 2775080736464
+2025-10-08 00:26:38.466 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-08 00:26:38.466 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 00:26:38.466 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 00:26:38.466 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 00:26:38.466 [Thread-0] WARN  c.r.e.modules.InitializationModule - ⚠ Возможно, используется Compatibility Profile вместо Core Profile
+2025-10-08 00:26:38.473 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-08 00:26:38.473 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-08 00:26:38.473 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 00:26:38.473 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 00:26:38.473 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 00:26:38.473 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-08 00:26:38.473 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-08 00:26:38.482 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-08 00:26:39.487 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 113
+2025-10-08 00:26:40.483 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 119
+2025-10-08 00:26:41.486 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-08 00:26:42.096 [Thread-0] INFO  com.rivet.engine.ModuleManager - Очистка модулей движка...
+2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule очищен
+2025-10-08 00:26:42.127 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Очистка ResourceManager
+2025-10-08 00:26:42.127 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов очищен
+2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule очищен
+2025-10-08 00:26:42.127 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
+2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
+2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
