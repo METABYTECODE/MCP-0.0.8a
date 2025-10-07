@@ -11,7 +11,6 @@ import com.mojang.minecraft.phys.AABB;
 import com.mojang.minecraft.renderer.Frustum;
 import com.mojang.minecraft.renderer.Tesselator;
 import com.mojang.minecraft.renderer.Textures;
-import java.awt.Canvas;
 import java.awt.Component;
 import java.io.IOException;
 import java.nio.FloatBuffer;
@@ -24,8 +23,6 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GL11;
-import org.lwjgl.system.MemoryStack;
-import org.lwjgl.system.MemoryUtil;
 import org.joml.Matrix4f;
 
 public class Minecraft implements Runnable {
@@ -41,9 +38,7 @@ public class Minecraft implements Runnable {
    private Player player;
    private int paintTexture = 1;
    private ParticleEngine particleEngine;
-   private ArrayList entities = new ArrayList();
-   private Canvas parent;
-   public boolean appletMode = false;
+   private ArrayList<Entity> entities = new ArrayList<Entity>();
    public volatile boolean pause = false;
    private int yMouseAxis = 1;
    public Textures textures;
@@ -60,8 +55,7 @@ public class Minecraft implements Runnable {
    // GLFW 3 variables
    private long window;
 
-   public Minecraft(Canvas parent, int width, int height, boolean fullscreen) {
-      this.parent = parent;
+   public Minecraft(int width, int height, boolean fullscreen) {
       this.width = width;
       this.height = height;
       this.fullscreen = fullscreen;
@@ -632,7 +626,7 @@ public class Minecraft implements Runnable {
    }
 
    public static void main(String[] args) {
-      Minecraft minecraft = new Minecraft((Canvas)null, 854, 480, false);
+      Minecraft minecraft = new Minecraft(854, 480, false);
       (new Thread(minecraft)).start();
    }
 }
