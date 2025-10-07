@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
+group = 'com.rivet'
+version = '1.0.0'
 
 java {
     toolchain {
@@ -26,6 +26,11 @@ dependencies {
     // JOML - Java OpenGL Math Library (замена GLU)
     implementation 'org.joml:joml:1.10.5'
     
+    // SLF4J + Logback для логирования
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'ch.qos.logback:logback-classic:1.4.11'
+    implementation 'ch.qos.logback:logback-core:1.4.11'
+    
     // Нативные библиотеки для Windows
     runtimeOnly 'org.lwjgl:lwjgl:3.3.3:natives-windows'
     runtimeOnly 'org.lwjgl:lwjgl-glfw:3.3.3:natives-windows'
@@ -42,7 +47,7 @@ test {
 
 task runClient(type: JavaExec) {
     group = 'application'
-    description = 'Запуск клиента Minecraft (как в новых версиях)'
-    mainClass = 'com.mojang.minecraft.Minecraft'
+    description = 'Запуск игры Rivet'
+    mainClass = 'com.rivet.game.Rivet'
     classpath = sourceSets.main.runtimeClasspath
 }

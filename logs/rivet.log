@@ -1,0 +1,27 @@
+2025-10-07 18:47:08.684 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-07 18:47:08.686 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-07 18:47:08.686 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-07 18:47:08.686 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-07 18:47:08.686 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-07 18:47:08.687 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-07 18:47:09.192 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 2167530268352
+2025-10-07 18:47:09.192 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 2167530268352
+2025-10-07 18:47:09.197 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-07 18:47:09.204 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-07 18:47:09.204 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-07 18:47:09.204 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-07 18:47:09.205 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-07 18:47:09.205 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-07 18:47:09.205 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-07 18:47:09.205 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-07 18:47:09.213 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-07 18:47:10.220 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 108
+2025-10-07 18:47:11.219 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 117
+2025-10-07 18:47:12.214 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 116
+2025-10-07 18:47:13.214 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 115
+2025-10-07 18:47:14.218 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 116
+2025-10-07 18:47:14.330 [Thread-0] INFO  com.rivet.engine.ModuleManager - Очистка модулей движка...
+2025-10-07 18:47:14.381 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule очищен
+2025-10-07 18:47:14.381 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
+2025-10-07 18:47:14.381 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
+2025-10-07 18:47:14.381 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
