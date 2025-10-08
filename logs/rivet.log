@@ -11858,3 +11858,41 @@ Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character (
 2025-10-08 00:26:42.127 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
 2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
 2025-10-08 00:26:42.127 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены
+2025-10-08 09:44:50.260 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: LoggingModule
+2025-10-08 09:44:50.262 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: ResourceModule
+2025-10-08 09:44:50.262 [main] DEBUG com.rivet.engine.ModuleManager - Добавлен модуль: InitializationModule
+2025-10-08 09:44:50.262 [Thread-0] INFO  com.rivet.engine.ModuleManager - Инициализация модулей движка...
+2025-10-08 09:44:50.262 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Инициализация модуля логирования
+2025-10-08 09:44:50.263 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - SLF4J + Logback настроены для Rivet Engine
+2025-10-08 09:44:50.263 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule инициализирован
+2025-10-08 09:44:50.263 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Инициализация модуля ресурсов
+2025-10-08 09:44:50.377 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Инициализация ResourceManager
+2025-10-08 09:44:50.391 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Конфигурация ресурсов загружена: 7 записей
+2025-10-08 09:44:50.391 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов инициализирован
+2025-10-08 09:44:50.391 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule инициализирован
+2025-10-08 09:44:50.879 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Context current: 2448678552640
+2025-10-08 09:44:50.879 [Thread-0] DEBUG c.r.e.modules.InitializationModule - Window: 2448678552640
+2025-10-08 09:44:50.884 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL 3.2+ Core Profile настроен
+2025-10-08 09:44:50.884 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 09:44:50.884 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 09:44:50.884 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 09:44:50.885 [Thread-0] WARN  c.r.e.modules.InitializationModule - ⚠ Возможно, используется Compatibility Profile вместо Core Profile
+2025-10-08 09:44:50.891 [Thread-0] INFO  c.r.e.modules.InitializationModule - Шейдеры загружены успешно
+2025-10-08 09:44:50.891 [Thread-0] INFO  c.r.e.modules.InitializationModule - InitializationModule: Инициализация завершена
+2025-10-08 09:44:50.891 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Version: 3.2.0 NVIDIA 565.90
+2025-10-08 09:44:50.891 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Vendor: NVIDIA Corporation
+2025-10-08 09:44:50.891 [Thread-0] INFO  c.r.e.modules.InitializationModule - OpenGL Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+2025-10-08 09:44:50.891 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule инициализирован
+2025-10-08 09:44:50.891 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка успешно инициализированы
+2025-10-08 09:44:50.898 [Thread-0] INFO  com.rivet.game.Rivet - Rivet: Инициализация завершена успешно
+2025-10-08 09:44:51.899 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 112
+2025-10-08 09:44:52.904 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 118
+2025-10-08 09:44:53.902 [Thread-0] DEBUG com.rivet.game.Rivet - FPS: 115
+2025-10-08 09:44:54.384 [Thread-0] INFO  com.rivet.engine.ModuleManager - Очистка модулей движка...
+2025-10-08 09:44:54.416 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ InitializationModule очищен
+2025-10-08 09:44:54.416 [Thread-0] INFO  c.r.engine.resources.ResourceManager - Очистка ResourceManager
+2025-10-08 09:44:54.416 [Thread-0] INFO  c.r.engine.modules.ResourceModule - Модуль ресурсов очищен
+2025-10-08 09:44:54.416 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ ResourceModule очищен
+2025-10-08 09:44:54.416 [Thread-0] INFO  c.rivet.engine.modules.LoggingModule - Очистка модуля логирования
+2025-10-08 09:44:54.416 [Thread-0] INFO  com.rivet.engine.ModuleManager - ✓ LoggingModule очищен
+2025-10-08 09:44:54.416 [Thread-0] INFO  com.rivet.engine.ModuleManager - Все модули движка очищены

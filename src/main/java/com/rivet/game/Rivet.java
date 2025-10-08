@@ -1,6 +1,5 @@
 package com.rivet.game;
 
-import com.rivet.engine.Engine;
 import com.rivet.engine.ModuleManager;
 import com.rivet.engine.modules.InitializationModule;
 import com.rivet.engine.modules.LoggingModule;
@@ -24,7 +23,6 @@ public class Rivet implements Runnable {
     private static final Logger logger = LoggerFactory.getLogger(Rivet.class);
     
     // Движок
-    private Engine engine;
     private ModuleManager moduleManager;
     private InitializationModule initModule;
     private LoggingModule loggingModule;
@@ -46,7 +44,6 @@ public class Rivet implements Runnable {
         this.fullscreen = fullscreen;
         
         // Инициализация движка
-        this.engine = new Engine();
         this.moduleManager = new ModuleManager();
         this.loggingModule = new LoggingModule();
         this.resourceModule = new ResourceModule();
